@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.firstapp.egost"
+    android:versionCode="5"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+    
+    <supports-screens android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:requiresSmallestWidthDp="600"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+         <meta-data android:name="com.google.android.gms.version"
+               android:value="@integer/google_play_services_version"/>    
+         
+        <activity android:name="MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="HomeActivity" android:screenOrientation="portrait"></activity>   
+        <activity android:name="ActelActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="PaselActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.actel.TransistorAvtivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.ResistorActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.CapacitorActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.InductanceActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.actel.ThyristorActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="SwitchingActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="ButtonSwichActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="OptelActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="OkustelActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.actel.TrpolActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.actel.TrodnoperActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.actel.TrmnogoActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.actel.FtransistorActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.actel.ZenerActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.actel.DiodActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.actel.DshotkiActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.actel.FdiodActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.optel.OptrActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.optel.OptdActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.optel.OpttransActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.optel.OpttActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.swiching.SwrActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.swiching.SwtActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.swiching.SwcActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.swiching.SwpushActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.ResperActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.RespodActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.ResnelActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.ResfotoActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.CapacitoroksActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.CapacitorpodActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.CapacitorperActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.CapacitorproxActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.CapacitorkpeActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.TransformatorActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.pasel.DroselActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.okustel.MicrofonActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.okustel.TelefonActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.okustel.GolgrActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.okustel.ZvgolActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.okustel.GidfonActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name="app.firstapp.egost.okustel.ZvonActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".pasel.ReleActivity" android:screenOrientation="portrait"></activity>
+         <activity android:name="AboutActivity" android:screenOrientation="portrait"></activity>
+         <activity android:name=".actel.MicrochipActivity" android:screenOrientation="portrait"></activity>
+         
+         <activity android:name="com.google.android.gms.ads.AdActivity"
+             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+
+
+
+    </application>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>

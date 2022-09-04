@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9D9D9"
+    android:orientation="vertical" >
+    
+      <ListView
+
+        android:id="@+id/optelView"
+        android:background="@drawable/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        android:dividerHeight="3dp"
+        android:divider="#98b9d3" >       
+    </ListView>
+    
+
+</LinearLayout>
